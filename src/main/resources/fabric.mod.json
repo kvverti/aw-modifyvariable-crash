@@ -1,16 +1,14 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "aw-modifyvariable-crash",
   "version": "${version}",
 
   "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "A minimal reproducible example of fabric-loader #239",
   "authors": [
-    "Me!"
+    "kwerti"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
   "license": "CC0-1.0",
@@ -23,13 +21,13 @@
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "aw-modifyvariable-crash.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.7.4",
     "fabric": "*",
-    "minecraft": "1.15.x"
+    "minecraft": ">=1.16-"
   },
   "suggests": {
     "flamingo": "*"
