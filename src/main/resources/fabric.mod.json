@@ -3,7 +3,7 @@
   "id": "aw-modifyvariable-crash",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "AW ModifyVariable Crash",
   "description": "A minimal reproducible example of fabric-loader #239",
   "authors": [
     "kwerti"
@@ -17,13 +17,13 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.fabricmc.awcrash.ExampleMod"
     ]
   },
   "mixins": [
     "aw-modifyvariable-crash.mixins.json"
   ],
-
+  "accessWidener": "aw-modifyvariable-crash.accesswidener",
   "depends": {
     "fabricloader": ">=0.7.4",
     "fabric": "*",

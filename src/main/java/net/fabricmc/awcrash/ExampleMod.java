@@ -1,4 +1,4 @@
-package net.fabricmc.example;
+package net.fabricmc.awcrash;
 
 import net.fabricmc.api.ModInitializer;
 

@@ -1,0 +1,4 @@
+accessWidener v1 named
+
+# private method
+accessible method net/minecraft/client/gui/screen/TitleScreen switchToRealms ()V
